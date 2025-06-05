@@ -1,0 +1,222 @@
+[33mcommit 82c1135d3c2c4aaa3815d58be793396723077564[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Hafiz Umer <umersayam96@gmail.com>
+Date:   Thu Jun 5 17:39:37 2025 +0500
+
+    first commit
+
+[33mcommit 7d75cfb0afa605e51954c3cd72d7b284041f1d45[m
+Author: Hafiz Umer <umersayam96@gmail.com>
+Date:   Thu Jun 5 17:35:45 2025 +0500
+
+    Removed Firebase credentials and used environment variables
+
+[33mcommit e511ee33de776dbf104c5c18334eeee0f91fc229[m
+Author: Hafiz Umer <umersayam96@gmail.com>
+Date:   Thu Jun 5 17:01:17 2025 +0500
+
+    Refactor code structure for improved readability and maintainability
+
+[33mcommit a259781706e16a9a01cb1a108a5a8ef2502a0157[m
+Merge: 89c18f7 4d4e79e
+Author: Hafiz Muhammad Umer <154698497+H-Umer@users.noreply.github.com>
+Date:   Mon May 26 18:12:18 2025 +0500
+
+    Merge pull request #6 from H-Umer/umer-26-May-25
+    
+    Add getPrivacyAndTerms function and update routes for admin settings
+
+[33mcommit 4d4e79e9a77ce55b08fa6c189525d0693f86a36c[m[33m ([m[1;32mumer-26-May-25[m[33m)[m
+Author: Hafiz Umer <umersayam96@gmail.com>
+Date:   Mon May 26 18:11:27 2025 +0500
+
+    Add getPrivacyAndTerms function and update routes for admin settings
+
+[33mcommit 89c18f7720a7530edd8bcadcd6d59a42b8526fcb[m
+Merge: 421b320 4629d94
+Author: Hafiz Muhammad Umer <154698497+H-Umer@users.noreply.github.com>
+Date:   Mon May 26 16:22:53 2025 +0500
+
+    Merge pull request #5 from H-Umer/umer-26-May-25
+    
+    Add status upload functionality with image handling and retrieval
+
+[33mcommit 4629d945263b11788d0a415b40ad71c1d6b51e28[m
+Author: Hafiz Umer <umersayam96@gmail.com>
+Date:   Mon May 26 16:22:00 2025 +0500
+
+    Add status upload functionality with image handling and retrieval
+
+[33mcommit 421b32017c79070a373c3188e34b0f70696b29fe[m[33m ([m[1;32mhafiz-umer-24-May-25[m[33m)[m
+Author: Hafiz Umer <umersayam96@gmail.com>
+Date:   Wed Apr 30 18:05:18 2025 +0500
+
+    add-topic-for-notification
+
+[33mcommit b681f77c2554dedc319ed370786ffb1f8ba5bde2[m
+Merge: ccba6c8 5a8cafa
+Author: Hafiz Umer <umersayam96@gmail.com>
+Date:   Wed Apr 30 17:41:06 2025 +0500
+
+    Merge branch 'main' of https://github.com/H-Umer/musa-backend-panel
+
+[33mcommit ccba6c800377ef2fa559172e31e25c8db50511c0[m
+Author: Hafiz Umer <umersayam96@gmail.com>
+Date:   Wed Apr 30 17:40:48 2025 +0500
+
+    add-new-firebase-account
+
+[33mcommit 5a8cafaec45622f8e287f0b8c2022a29270add66[m
+Merge: 7d77a32 4c98d59
+Author: Hafiz Muhammad Umer <154698497+H-Umer@users.noreply.github.com>
+Date:   Mon Apr 14 13:18:08 2025 +0500
+
+    Merge pull request #4 from H-Umer/hafiz-umer-14-Apr-25
+    
+    final-updates
+
+[33mcommit 4c98d598cd687aa3dd4f060de02849fe4a31bfd7[m[33m ([m[1;32mhafiz-umer-14-Apr-25[m[33m)[m
+Author: Hafiz Umer <umersayam96@gmail.com>
+Date:   Mon Apr 14 13:16:21 2025 +0500
+
+    final-updates
+
+[33mcommit 7d77a32a4d4f7adef6d981ce7bb944a6b46eb56d[m
+Merge: bfdddc3 d701cd1
+Author: Hafiz Muhammad Umer <154698497+H-Umer@users.noreply.github.com>
+Date:   Fri Apr 11 20:24:51 2025 +0500
+
+    Merge pull request #3 from H-Umer/hafiz-umer-11-Apr-25
+    
+    update-toggle
+
+[33mcommit d701cd193569f175ed3e84d60a01450724507a31[m[33m ([m[1;32mhafiz-umer-11-Apr-25[m[33m)[m
+Author: Hafiz Umer <umersayam96@gmail.com>
+Date:   Fri Apr 11 20:23:25 2025 +0500
+
+    update-toggle
+
+[33mcommit bfdddc3b6619e8ab10acf8d26a5ac2663be14ef9[m
+Merge: 987ad27 55696d3
+Author: Hafiz Muhammad Umer <154698497+H-Umer@users.noreply.github.com>
+Date:   Fri Apr 11 18:32:02 2025 +0500
+
+    Merge pull request #2 from H-Umer/hafiz-umer-11-Apr-25
+    
+    make-api-for-app
+
+[33mcommit 55696d3ab99401e657c8d836f2683b6813fb4f36[m
+Author: Hafiz Umer <umersayam96@gmail.com>
+Date:   Fri Apr 11 18:30:10 2025 +0500
+
+    make-api-for-app
+
+[33mcommit 987ad274b98baed6438b93a2b4a5f8551d81e9d5[m
+Merge: c8ed5bd e0a292e
+Author: Hafiz Muhammad Umer <154698497+H-Umer@users.noreply.github.com>
+Date:   Fri Apr 11 16:30:17 2025 +0500
+
+    Merge pull request #1 from H-Umer/hafiz-umer-11-Apr-25
+    
+    make-new-api-for-app
+
+[33mcommit e0a292e789cba731c8899fb7904c90146e1bcb5e[m
+Author: Hafiz Umer <umersayam96@gmail.com>
+Date:   Fri Apr 11 16:24:11 2025 +0500
+
+    make-new-api-for-app
+
+[33mcommit c8ed5bd68ec04b82defc680a636d4dea59468aab[m
+Author: Hafiz Umer <umersayam96@gmail.com>
+Date:   Mon Mar 24 17:01:09 2025 +0500
+
+    add-headers
+
+[33mcommit eb9c145d146f9d95aac6887063858718377f04c9[m
+Author: Hafiz Umer <umersayam96@gmail.com>
+Date:   Wed Mar 19 16:16:08 2025 +0500
+
+    modifications
+
+[33mcommit 33f0ac0b90028f88c0ebbbe43c64b48c79460ce7[m
+Author: Hafiz Umer <umersayam96@gmail.com>
+Date:   Tue Mar 18 16:05:46 2025 +0500
+
+    some-fixes
+
+[33mcommit f2a33d1e763fa552b2d1767466aff6bf6cf0d2d2[m
+Author: Hafiz Umer <umersayam96@gmail.com>
+Date:   Mon Mar 17 19:31:22 2025 +0500
+
+    fix-leagues
+
+[33mcommit 71713006c27d05b737f1f28317874814614b52f8[m
+Author: Hafiz Umer <umersayam96@gmail.com>
+Date:   Sat Mar 15 11:58:42 2025 +0500
+
+    fix-the-leagues
+
+[33mcommit 1a5e72a6d773bb78c8c6c147010e52abe35bd55f[m
+Author: Hafiz Umer <umersayam96@gmail.com>
+Date:   Fri Mar 14 16:26:45 2025 +0500
+
+    integrate-leagues
+
+[33mcommit d5397768365d4ea508fc651bbbd346c54dce1dba[m
+Author: Hafiz Umer <umersayam96@gmail.com>
+Date:   Tue Mar 11 15:17:57 2025 +0500
+
+    fixture-api
+
+[33mcommit 68092acd9462b6381ea4225d3771329e6aa7ca2f[m
+Author: Hafiz Umer <umersayam96@gmail.com>
+Date:   Mon Mar 10 20:09:35 2025 +0500
+
+    10-March-25
+
+[33mcommit d9cea6f5c6764923a71ec7126e97055bdc2fb35f[m
+Author: Hafiz Umer <umersayam96@gmail.com>
+Date:   Sat Mar 8 17:28:05 2025 +0500
+
+    saturday-work
+
+[33mcommit 9be4d996f586de35122e3b4b25f758b37dae4c06[m
+Author: Hafiz Umer <umersayam96@gmail.com>
+Date:   Thu Mar 6 23:38:34 2025 +0500
+
+    new-error-fix
+
+[33mcommit a5cf0a8544989b6ff8c774de1fd4b67c9bcebbcd[m
+Author: Hafiz Umer <umersayam96@gmail.com>
+Date:   Thu Mar 6 23:25:36 2025 +0500
+
+    solve-issues
+
+[33mcommit aff660a4e4418482e078a80cc3d2938e3c8c4960[m
+Author: Hafiz Umer <umersayam96@gmail.com>
+Date:   Thu Mar 6 20:12:53 2025 +0500
+
+    complete-manage-app
+
+[33mcommit 01dfdb253bb9b8b3633b3b2402480802906df2f2[m
+Author: Hafiz Umer <umersayam96@gmail.com>
+Date:   Thu Mar 6 11:11:21 2025 +0500
+
+    social-links-update
+
+[33mcommit b5712b2e025949468bcd44dd52e18d11e63719b1[m
+Author: Hafiz Umer <umersayam96@gmail.com>
+Date:   Thu Mar 6 10:06:41 2025 +0500
+
+    some-fixes
+
+[33mcommit 7c6ebfe56048b57d7100fdd65f7921f0cafa49b1[m
+Author: Hafiz Umer <umersayam96@gmail.com>
+Date:   Wed Mar 5 16:24:37 2025 +0500
+
+    final-changes-made
+
+[33mcommit 3d3f98e331095a581516e4f7babbc90c25f21431[m
+Author: Hafiz Umer <umersayam96@gmail.com>
+Date:   Thu Feb 27 01:37:25 2025 +0500
+
+    first-commit

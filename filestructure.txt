@@ -1,0 +1,1225 @@
+|-- .env
+|-- .gitignore
+|-- AdminSettings
+    |-- adminController.js
+    |-- adminModel.js
+    |-- adminRoutes.js
+|-- AdsControl
+    |-- adController.js
+    |-- AdModel.js
+    |-- AdRoutes.js
+|-- androidSettings
+    |-- androidModel.js
+    |-- androidSettingsController.js
+    |-- androidSettingsRoutes.js
+|-- androidSettingupload
+    |-- 1714398961209.Screenshot 2023-09-10 021015.png
+    |-- 1714399021279.Screenshot 2023-09-10 021015.png
+    |-- 1714399355747.Screenshot (1).png
+    |-- 1714415528581.score-admin-live.onrender.com.png
+    |-- 1718022572033.Screenshot_1.png
+    |-- 1718029266074.Screenshot_1.png
+    |-- 1718029268418.Screenshot_1.png
+    |-- 1718029456806.Screenshot_1.png
+|-- AppInformation
+    |-- appInformationController.js
+    |-- appInformationModel.js
+    |-- appInformationRoute.js
+|-- appInformationUpload
+    |-- 1714231353144.Screenshot 2023-09-10 021015.png
+    |-- 1714232154268.Screenshot 2023-08-23 125711.png
+    |-- 1714398417075.Screenshot 2023-08-23 125711.png
+    |-- 1714412848737.score-admin-live.onrender.com.png
+    |-- 1714413063696.score-admin-live.onrender.com.png
+    |-- 1715165893021.Mall-of-B17-Islamabad-Pakistan-Location-Islamabad-Pakistan-.jpg
+    |-- 1715170631447.Screenshot_1.png
+    |-- 1715170664543.Screenshot_1.png
+    |-- 1715170667696.Screenshot_1.png
+    |-- 1715640160360.Screenshot_1.png
+    |-- 1715671602598.Screenshot_2.png
+    |-- 1715671721291.Screenshot_2.png
+    |-- 1715671778251.Screenshot_2.png
+|-- blockedCountries
+    |-- blockController.js
+    |-- blockModel.js
+    |-- blockRoutes.js
+|-- client
+    |-- .env
+    |-- .eslintrc.cjs
+    |-- .gitignore
+    |-- index.html
+    |-- package-lock.json
+    |-- package.json
+    |-- postcss.config.js
+    |-- public
+        |-- favicon.ico
+    |-- README.md
+    |-- src
+        |-- AdminRoute.jsx
+        |-- Api.js
+        |-- App.css
+        |-- App.jsx
+        |-- assets
+            |-- ball-football-icon.svg
+            |-- favicon.ico
+            |-- football-logos-master
+                |-- .gitignore
+                |-- logos
+                    |-- 2021-22
+                        |-- A1
+                            |-- Austria Vienna.png
+                            |-- FC Admira Wacker Mödling.png
+                            |-- LASK.png
+                            |-- Rapid Vienna.png
+                            |-- RB Salzburg.png
+                            |-- SCR Altach.png
+                            |-- SK Austria Klagenfurt.png
+                            |-- SK Sturm Graz.png
+                            |-- SV Ried.png
+                            |-- TSV Hartberg.png
+                            |-- Wolfsberger AC.png
+                            |-- WSG Tirol.png
+                        |-- BE1
+                            |-- Beerschot V.A..png
+                            |-- Cercle Brugge.png
+                            |-- Club Brugge.png
+                            |-- KAA Gent.png
+                            |-- KAS Eupen.png
+                            |-- KRC Genk.png
+                            |-- KV Kortrijk.png
+                            |-- KV Mechelen.png
+                            |-- KV Oostende.png
+                            |-- OH Leuven.png
+                            |-- RFC Seraing.png
+                            |-- Royal Antwerp.png
+                            |-- Royale Union Saint Gilloise.png
+                            |-- RSC Anderlecht.png
+                            |-- RSC Charleroi.png
+                            |-- Sint-Truidense VV.png
+                            |-- Standard Liège.png
+                            |-- SV Zulte Waregem.png
+                        |-- C1
+                            |-- BSC Young Boys.png
+                            |-- FC Basel.png
+                            |-- FC Lausanne-Sport.png
+                            |-- FC Lugano.png
+                            |-- FC Luzern.png
+                            |-- FC Sion.png
+                            |-- FC St. Gallen.png
+                            |-- FC Zürich.png
+                            |-- Grasshopper Club Zurich.png
+                            |-- Servette FC.png
+                        |-- DK1
+                            |-- Aalborg BK.png
+                            |-- Aarhus GF.png
+                            |-- Bröndby IF.png
+                            |-- FC Copenhagen.png
+                            |-- FC Midtjylland.png
+                            |-- FC Nordsjaelland.png
+                            |-- Odense BK.png
+                            |-- Randers FC.png
+                            |-- Silkeborg IF.png
+                            |-- SönderjyskE.png
+                            |-- Vejle BK.png
+                            |-- Viborg FF.png
+                        |-- ES1
+                            |-- Alavés.png
+                            |-- Athletic.png
+                            |-- Atlético de Madrid.png
+                            |-- Barcelona.png
+                            |-- CA Osasuna.png
+                            |-- Celta de Vigo.png
+                            |-- Cádiz CF.png
+                            |-- Elche CF.png
+                            |-- Espanyol.png
+                            |-- Getafe CF.png
+                            |-- Granada CF.png
+                            |-- Levante UD.png
+                            |-- Rayo Vallecano.png
+                            |-- RCD Mallorca.png
+                            |-- Real Betis Balompié.png
+                            |-- Real Madrid.png
+                            |-- Real Sociedad.png
+                            |-- Sevilla FC.png
+                            |-- Valencia.png
+                            |-- Villarreal CF.png
+                        |-- FR1
+                            |-- AS Monaco.png
+                            |-- AS Saint-Étienne.png
+                            |-- Clermont Foot 63.png
+                            |-- ESTAC Troyes.png
+                            |-- FC Lorient.png
+                            |-- FC Metz.png
+                            |-- FC Nantes.png
+                            |-- G. Bordeaux.png
+                            |-- LOSC Lille.png
+                            |-- Marseille.png
+                            |-- Montpellier.png
+                            |-- OGC Nice.png
+                            |-- Olympique Lyon.png
+                            |-- Paris SG.png
+                            |-- RC Lens.png
+                            |-- RC Strasbourg Alsace.png
+                            |-- SCO Angers.png
+                            |-- Stade Brestois 29.png
+                            |-- Stade Reims.png
+                            |-- Stade Rennais.png
+                        |-- GB1
+                            |-- Arsenal.png
+                            |-- Aston Villa.png
+                            |-- Brentford FC.png
+                            |-- Brighton.png
+                            |-- Burnley.png
+                            |-- Chelsea.png
+                            |-- Crystal Palace.png
+                            |-- Everton FC.png
+                            |-- Leeds United.png
+                            |-- Leicester City.png
+                            |-- Liverpool FC.png
+                            |-- Man City.png
+                            |-- Manchester United.png
+                            |-- Newcastle United.png
+                            |-- Norwich.png
+                            |-- Southampton.png
+                            |-- Spurs.png
+                            |-- Watford FC.png
+                            |-- West Ham.png
+                            |-- Wolverhampton Wanderers.png
+                        |-- GR1
+                            |-- AEK Athens.png
+                            |-- Apollon Smyrnis.png
+                            |-- Aris Saloniki.png
+                            |-- Asteras Tripoli.png
+                            |-- Atromitos Athen.png
+                            |-- Ionikos Nikeas.png
+                            |-- OFI Crete.png
+                            |-- Olympiacos.png
+                            |-- Panathinaikos Athens.png
+                            |-- Panetolikos GFS.png
+                            |-- PAOK Thessaloniki.png
+                            |-- PAS Giannina.png
+                            |-- PAS Lamia 1964.png
+                            |-- Volos NPS.png
+                        |-- IT1
+                            |-- AC Milan.png
+                            |-- ACF Fiorentina.png
+                            |-- AS Roma.png
+                            |-- Atalanta BC.png
+                            |-- Bologna FC 1909.png
+                            |-- Cagliari Calcio.png
+                            |-- FC Empoli.png
+                            |-- Genoa CFC.png
+                            |-- Hellas Verona.png
+                            |-- Inter Milan.png
+                            |-- Juventus.png
+                            |-- Lazio.png
+                            |-- Sampdoria.png
+                            |-- Sassuolo.png
+                            |-- Spezia Calcio.png
+                            |-- SSC Napoli.png
+                            |-- Torino FC.png
+                            |-- Udinese Calcio.png
+                            |-- US Salernitana 1919.png
+                            |-- Venezia.png
+                        |-- KR1
+                            |-- Dinamo Zagreb.png
+                            |-- Hajduk Split.png
+                            |-- HNK Gorica.png
+                            |-- HNK Rijeka.png
+                            |-- HNK Sibenik.png
+                            |-- NK Hrvatski Dragovoljac.png
+                            |-- NK Istra.png
+                            |-- NK Lokomotiva Zagreb.png
+                            |-- NK Osijek.png
+                            |-- Slaven Belupo Koprivnica.png
+                        |-- L1
+                            |-- 1. FC Köln.png
+                            |-- 1.FC Union Berlin.png
+                            |-- 1.FSV Mainz 05.png
+                            |-- Arminia Bielefeld.png
+                            |-- Bayer 04 Leverkusen.png
+                            |-- Bor. M'gladbach.png
+                            |-- Borussia Dortmund.png
+                            |-- E. Frankfurt.png
+                            |-- FC Augsburg.png
+                            |-- FC Bayern .png
+                            |-- Greuther Fürth.png
+                            |-- Hertha BSC.png
+                            |-- RB Leipzig.png
+                            |-- SC Freiburg.png
+                            |-- TSG 1899 Hoffenheim.png
+                            |-- VfB Stuttgart.png
+                            |-- VfL Bochum.png
+                            |-- VfL Wolfsburg.png
+                        |-- NL1
+                            |-- Ajax.png
+                            |-- AZ Alkmaar.png
+                            |-- FC Groningen.png
+                            |-- FC Utrecht.png
+                            |-- Feyenoord.png
+                            |-- Fortuna Sittard.png
+                            |-- Go Ahead Eagles.png
+                            |-- Heerenveen.png
+                            |-- Heracles Almelo.png
+                            |-- NEC Nijmegen.png
+                            |-- PEC Zwolle.png
+                            |-- PSV Eindhoven.png
+                            |-- RKC Waalwijk.png
+                            |-- SC Cambuur.png
+                            |-- Sparta Rotterdam.png
+                            |-- Twente Enschede FC.png
+                            |-- Vitesse.png
+                            |-- Willem II.png
+                        |-- PL1
+                            |-- Cracovia.png
+                            |-- Gornik Leczna.png
+                            |-- Górnik Zabrze.png
+                            |-- Jagiellonia.png
+                            |-- Lech Poznan.png
+                            |-- Lechia Gdansk.png
+                            |-- Legia Warszawa.png
+                            |-- Piast Gliwice.png
+                            |-- Pogon Szczecin.png
+                            |-- Radomiak Radom.png
+                            |-- Rakow Czestochowa.png
+                            |-- Slask Wroclaw.png
+                            |-- Stal Mielec.png
+                            |-- Termalica.png
+                            |-- Warta Poznan.png
+                            |-- Wisla Kraków.png
+                            |-- Wisla Plock.png
+                            |-- Zaglebie Lubin.png
+                        |-- PO1
+                            |-- Arouca.png
+                            |-- Belenenses SAD.png
+                            |-- Benfica.png
+                            |-- Boavista FC.png
+                            |-- CD Tondela.png
+                            |-- Estoril Praia.png
+                            |-- FC Famalicão.png
+                            |-- FC Paços de Ferreira.png
+                            |-- FC Porto.png
+                            |-- FC Vizela.png
+                            |-- Gil Vicente FC.png
+                            |-- Marítimo.png
+                            |-- Moreirense FC.png
+                            |-- Portimonense.png
+                            |-- Santa Clara.png
+                            |-- SC Braga.png
+                            |-- Sporting CP.png
+                            |-- Vit. Guimarães.png
+                        |-- RU1
+                            |-- Akhmat Grozny.png
+                            |-- Arsenal Tula.png
+                            |-- CSKA Moscow.png
+                            |-- Dynamo Moscow.png
+                            |-- FK Nizhny Novgorod.png
+                            |-- FK Rostov.png
+                            |-- Khimki.png
+                            |-- Krasnodar.png
+                            |-- Krylya Sovetov Samara.png
+                            |-- Lokomotiv Moscow.png
+                            |-- Rubin Kazan.png
+                            |-- Sochi.png
+                            |-- Spartak Moscow.png
+                            |-- Ufa.png
+                            |-- Ural Yekaterinburg.png
+                            |-- Zenit S-Pb.png
+                        |-- SC1
+                            |-- Aberdeen FC.png
+                            |-- Celtic FC.png
+                            |-- Dundee FC.png
+                            |-- Dundee United FC.png
+                            |-- Heart of Midl..png
+                            |-- Hibernian FC.png
+                            |-- Livingston FC.png
+                            |-- Motherwell FC.png
+                            |-- Rangers.png
+                            |-- Ross County FC.png
+                            |-- St. Johnstone.png
+                            |-- St. Mirren.png
+                        |-- SER1
+                            |-- Cukaricki.png
+                            |-- FK Kolubara Lazarevac.png
+                            |-- FK Napredak Krusevac.png
+                            |-- FK Novi Pazar.png
+                            |-- FK Partizan Belgrade.png
+                            |-- FK Proleter Novi Sad.png
+                            |-- FK Radnicki Nis.png
+                            |-- FK TSC Backa Topola.png
+                            |-- FK Vojvodina Novi Sad.png
+                            |-- Metalac.png
+                            |-- Mladost.png
+                            |-- Radnicki 1923.png
+                            |-- Radnik.png
+                            |-- Red Star.png
+                            |-- Spartak.png
+                            |-- Vozdovac.png
+                        |-- TR1
+                            |-- Adana Demirspor.png
+                            |-- Alanyaspor.png
+                            |-- Altay SK.png
+                            |-- Antalyaspor.png
+                            |-- Basaksehir.png
+                            |-- Besiktas.png
+                            |-- Caykur Rizespor.png
+                            |-- Fenerbahce SK.png
+                            |-- Galatasaray.png
+                            |-- Gaziantep FK.png
+                            |-- Giresunspor.png
+                            |-- Göztepe.png
+                            |-- Hatayspor.png
+                            |-- Karagümrük.png
+                            |-- Kasimpasa.png
+                            |-- Kayserispor.png
+                            |-- Konyaspor.png
+                            |-- Sivasspor.png
+                            |-- Trabzonspor.png
+                            |-- Y. Malatyaspor.png
+                        |-- TS1
+                            |-- AC Sparta Prague.png
+                            |-- Banik Ostrava.png
+                            |-- FC Bohemians Prague 1905.png
+                            |-- FC Hradec Kralove.png
+                            |-- FC Zlin.png
+                            |-- FK Jablonec.png
+                            |-- FK Mlada Boleslav.png
+                            |-- FK Pardubice.png
+                            |-- FK Teplice.png
+                            |-- MFK Karvina.png
+                            |-- SK Dynamo Ceske Budejovice.png
+                            |-- SK Sigma Olomouc.png
+                            |-- Slavia Prague.png
+                            |-- Slovacko.png
+                            |-- Slovan Liberec.png
+                            |-- Viktoria Plzen.png
+                        |-- UKR1
+                            |-- Chornomorets Odessa.png
+                            |-- Desna.png
+                            |-- Dynamo Kyiv.png
+                            |-- FK Mariupol.png
+                            |-- FK Minaj.png
+                            |-- FK Oleksandriya.png
+                            |-- Ingulets Petrove.png
+                            |-- Kolos Kovalivka.png
+                            |-- Metalist 1925.png
+                            |-- PFK Lviv.png
+                            |-- Rukh Lviv.png
+                            |-- Shakhtar D..png
+                            |-- SK Dnipro-1.png
+                            |-- Veres Rivne.png
+                            |-- Vorskla Poltava.png
+                            |-- Zorya Lugansk.png
+                    |-- 2022-23
+                        |-- A1
+                            |-- Austria Vienna.png
+                            |-- LASK.png
+                            |-- Rapid Vienna.png
+                            |-- Red Bull Salzburg.png
+                            |-- SC Austria Lustenau.png
+                            |-- SCR Altach.png
+                            |-- SK Austria Klagenfurt.png
+                            |-- SK Sturm Graz.png
+                            |-- SV Ried.png
+                            |-- TSV Hartberg.png
+                            |-- Wolfsberger AC.png
+                            |-- WSG Tirol.png
+                        |-- BE1
+                            |-- Cercle Brugge.png
+                            |-- Club Brugge KV.png
+                            |-- KAA Gent.png
+                            |-- KAS Eupen.png
+                            |-- KRC Genk.png
+                            |-- KV Kortrijk.png
+                            |-- KV Mechelen.png
+                            |-- KV Oostende.png
+                            |-- KVC Westerlo.png
+                            |-- Oud-Heverlee Leuven.png
+                            |-- RFC Seraing.png
+                            |-- Royal Antwerp FC.png
+                            |-- Royale Union Saint Gilloise.png
+                            |-- RSC Anderlecht.png
+                            |-- RSC Charleroi.png
+                            |-- Sint-Truidense VV.png
+                            |-- Standard Liège.png
+                            |-- SV Zulte Waregem.png
+                        |-- C1
+                            |-- BSC Young Boys.png
+                            |-- FC Basel 1893.png
+                            |-- FC Lugano.png
+                            |-- FC Luzern.png
+                            |-- FC Sion.png
+                            |-- FC St. Gallen 1879.png
+                            |-- FC Winterthur.png
+                            |-- FC Zürich.png
+                            |-- Grasshopper Club Zurich.png
+                            |-- Servette FC.png
+                        |-- DK1
+                            |-- Aalborg BK.png
+                            |-- Aarhus GF.png
+                            |-- AC Horsens.png
+                            |-- Bröndby IF.png
+                            |-- FC Copenhagen.png
+                            |-- FC Midtjylland.png
+                            |-- FC Nordsjaelland.png
+                            |-- Lyngby BK.png
+                            |-- Odense Boldklub.png
+                            |-- Randers FC.png
+                            |-- Silkeborg IF.png
+                            |-- Viborg FF.png
+                        |-- ES1
+                            |-- Athletic Bilbao.png
+                            |-- Atlético de Madrid.png
+                            |-- CA Osasuna.png
+                            |-- Celta de Vigo.png
+                            |-- Cádiz CF.png
+                            |-- Elche CF.png
+                            |-- FC Barcelona.png
+                            |-- Getafe CF.png
+                            |-- Girona FC.png
+                            |-- Rayo Vallecano.png
+                            |-- RCD Espanyol Barcelona.png
+                            |-- RCD Mallorca.png
+                            |-- Real Betis Balompié.png
+                            |-- Real Madrid.png
+                            |-- Real Sociedad.png
+                            |-- Real Valladolid CF.png
+                            |-- Sevilla FC.png
+                            |-- UD Almería.png
+                            |-- Valencia CF.png
+                            |-- Villarreal CF.png
+                        |-- FR1
+                            |-- AC Ajaccio.png
+                            |-- AJ Auxerre.png
+                            |-- Angers SCO.png
+                            |-- AS Monaco.png
+                            |-- Clermont Foot 63.png
+                            |-- ESTAC Troyes.png
+                            |-- FC Lorient.png
+                            |-- FC Nantes.png
+                            |-- FC Toulouse.png
+                            |-- LOSC Lille.png
+                            |-- Montpellier HSC.png
+                            |-- OGC Nice.png
+                            |-- Olympique Lyon.png
+                            |-- Olympique Marseille.png
+                            |-- Paris Saint-Germain.png
+                            |-- RC Lens.png
+                            |-- RC Strasbourg Alsace.png
+                            |-- Stade Brestois 29.png
+                            |-- Stade Reims.png
+                            |-- Stade Rennais FC.png
+                        |-- GB1
+                            |-- AFC Bournemouth.png
+                            |-- Arsenal FC.png
+                            |-- Aston Villa.png
+                            |-- Brentford FC.png
+                            |-- Brighton & Hove Albion.png
+                            |-- Chelsea FC.png
+                            |-- Crystal Palace.png
+                            |-- Everton FC.png
+                            |-- Fulham FC.png
+                            |-- Leeds United.png
+                            |-- Leicester City.png
+                            |-- Liverpool FC.png
+                            |-- Manchester City.png
+                            |-- Manchester United.png
+                            |-- Newcastle United.png
+                            |-- Nottingham Forest.png
+                            |-- Southampton FC.png
+                            |-- Tottenham Hotspur.png
+                            |-- West Ham United.png
+                            |-- Wolverhampton Wanderers.png
+                        |-- GR1
+                            |-- AEK Athens.png
+                            |-- APO Levadiakos.png
+                            |-- Aris Thessaloniki.png
+                            |-- Asteras Tripolis.png
+                            |-- Atromitos Athen.png
+                            |-- Ionikos Nikeas.png
+                            |-- OFI Crete FC.png
+                            |-- Olympiacos Piraeus.png
+                            |-- Panathinaikos Athens.png
+                            |-- Panetolikos GFS.png
+                            |-- PAOK Thessaloniki.png
+                            |-- PAS Giannina.png
+                            |-- PAS Lamia 1964.png
+                            |-- Volos NPS.png
+                        |-- IT1
+                            |-- AC Milan.png
+                            |-- AC Monza.png
+                            |-- ACF Fiorentina.png
+                            |-- AS Roma.png
+                            |-- Atalanta BC.png
+                            |-- Bologna FC 1909.png
+                            |-- FC Empoli.png
+                            |-- Hellas Verona.png
+                            |-- Inter Milan.png
+                            |-- Juventus FC.png
+                            |-- Spezia Calcio.png
+                            |-- SS Lazio.png
+                            |-- SSC Napoli.png
+                            |-- Torino FC.png
+                            |-- UC Sampdoria.png
+                            |-- Udinese Calcio.png
+                            |-- US Cremonese.png
+                            |-- US Lecce.png
+                            |-- US Salernitana 1919.png
+                            |-- US Sassuolo.png
+                        |-- KR1
+                            |-- GNK Dinamo Zagreb.png
+                            |-- HNK Gorica.png
+                            |-- HNK Hajduk Split.png
+                            |-- HNK Rijeka.png
+                            |-- HNK Sibenik.png
+                            |-- NK Istra 1961.png
+                            |-- NK Lokomotiva Zagreb.png
+                            |-- NK Osijek.png
+                            |-- NK Varazdin.png
+                            |-- Slaven Belupo Koprivnica.png
+                        |-- L1
+                            |-- 1. FC Köln.png
+                            |-- 1.FC Union Berlin.png
+                            |-- 1.FSV Mainz 05.png
+                            |-- Bayer 04 Leverkusen.png
+                            |-- Bayern Munich.png
+                            |-- Borussia Dortmund.png
+                            |-- Borussia Mönchengladbach.png
+                            |-- Eintracht Frankfurt.png
+                            |-- FC Augsburg.png
+                            |-- FC Schalke 04.png
+                            |-- Hertha BSC.png
+                            |-- RB Leipzig.png
+                            |-- SC Freiburg.png
+                            |-- SV Werder Bremen.png
+                            |-- TSG 1899 Hoffenheim.png
+                            |-- VfB Stuttgart.png
+                            |-- VfL Bochum.png
+                            |-- VfL Wolfsburg.png
+                        |-- NL1
+                            |-- Ajax Amsterdam.png
+                            |-- AZ Alkmaar.png
+                            |-- Excelsior Rotterdam.png
+                            |-- FC Emmen.png
+                            |-- FC Groningen.png
+                            |-- FC Utrecht.png
+                            |-- FC Volendam.png
+                            |-- Feyenoord Rotterdam.png
+                            |-- Fortuna Sittard.png
+                            |-- Go Ahead Eagles.png
+                            |-- NEC Nijmegen.png
+                            |-- PSV Eindhoven.png
+                            |-- RKC Waalwijk.png
+                            |-- SC Cambuur-Leeuwarden.png
+                            |-- SC Heerenveen.png
+                            |-- Sparta Rotterdam.png
+                            |-- Twente Enschede FC.png
+                            |-- Vitesse Arnhem.png
+                        |-- PL1
+                            |-- Cracovia.png
+                            |-- Górnik Zabrze.png
+                            |-- Jagiellonia Bialystok.png
+                            |-- Korona Kielce.png
+                            |-- Lech Poznan.png
+                            |-- Lechia Gdansk.png
+                            |-- Legia Warszawa.png
+                            |-- Miedz Legnica.png
+                            |-- Piast Gliwice.png
+                            |-- Pogon Szczecin.png
+                            |-- Radomiak Radom.png
+                            |-- Rakow Czestochowa.png
+                            |-- Slask Wroclaw.png
+                            |-- Stal Mielec.png
+                            |-- Warta Poznan.png
+                            |-- Widzew Lodz.png
+                            |-- Wisla Plock.png
+                            |-- Zaglebie Lubin.png
+                        |-- PO1
+                            |-- Boavista FC.png
+                            |-- Casa Pia AC.png
+                            |-- CD Santa Clara.png
+                            |-- CS Marítimo.png
+                            |-- FC Arouca.png
+                            |-- FC Famalicão.png
+                            |-- FC Paços de Ferreira.png
+                            |-- FC Porto.png
+                            |-- FC Vizela.png
+                            |-- GD Chaves.png
+                            |-- GD Estoril Praia.png
+                            |-- Gil Vicente FC.png
+                            |-- Portimonense SC.png
+                            |-- Rio Ave FC.png
+                            |-- SC Braga.png
+                            |-- SL Benfica.png
+                            |-- Sporting CP.png
+                            |-- Vitória Guimarães SC.png
+                        |-- RU1
+                            |-- Akhmat Grozny.png
+                            |-- CSKA Moscow.png
+                            |-- Dynamo Moscow.png
+                            |-- Fakel Voronezh.png
+                            |-- FC Pari Nizhniy Novgorod.png
+                            |-- FC Sochi.png
+                            |-- FK Khimki.png
+                            |-- FK Krasnodar.png
+                            |-- FK Orenburg.png
+                            |-- FK Rostov.png
+                            |-- Krylya Sovetov Samara.png
+                            |-- Lokomotiv Moscow.png
+                            |-- Spartak Moscow.png
+                            |-- Torpedo Moscow.png
+                            |-- Ural Yekaterinburg.png
+                            |-- Zenit St. Petersburg.png
+                        |-- SC1
+                            |-- Aberdeen FC.png
+                            |-- Celtic FC.png
+                            |-- Dundee United FC.png
+                            |-- Heart of Midlothian FC.png
+                            |-- Hibernian FC.png
+                            |-- Kilmarnock FC.png
+                            |-- Livingston FC.png
+                            |-- Motherwell FC.png
+                            |-- Rangers FC.png
+                            |-- Ross County FC.png
+                            |-- St. Johnstone FC.png
+                            |-- St. Mirren FC.png
+                        |-- SE1
+                            |-- AIK Solna.png
+                            |-- BK Häcken.png
+                            |-- Degerfors IF.png
+                            |-- Djurgårdens IF.png
+                            |-- GIF Sundsvall.png
+                            |-- Hammarby IF.png
+                            |-- Helsingborgs IF.png
+                            |-- IF Elfsborg.png
+                            |-- IFK Göteborg.png
+                            |-- IFK Norrköping.png
+                            |-- IFK Värnamo.png
+                            |-- IK Sirius.png
+                            |-- Kalmar FF.png
+                            |-- Malmö FF.png
+                            |-- Mjällby AIF.png
+                            |-- Varbergs BoIS.png
+                        |-- TR1
+                            |-- Adana Demirspor.png
+                            |-- Alanyaspor.png
+                            |-- Antalyaspor.png
+                            |-- Besiktas JK.png
+                            |-- Fatih Karagümrük.png
+                            |-- Fenerbahce SK.png
+                            |-- Galatasaray A.S..png
+                            |-- Gaziantep FK.png
+                            |-- Giresunspor.png
+                            |-- Hatayspor.png
+                            |-- Istanbul Basaksehir FK.png
+                            |-- Istanbulspor.png
+                            |-- Kasimpasa.png
+                            |-- Kayserispor.png
+                            |-- Konyaspor.png
+                            |-- MKE Ankaragücü.png
+                            |-- Sivasspor.png
+                            |-- Trabzonspor.png
+                            |-- Ümraniyespor.png
+                        |-- TS1
+                            |-- 1.FC Slovacko.png
+                            |-- AC Sparta Prague.png
+                            |-- Bohemians Prague 1905.png
+                            |-- FC Banik Ostrava.png
+                            |-- FC Hradec Kralove.png
+                            |-- FC Slovan Liberec.png
+                            |-- FC Trinity Zlin.png
+                            |-- FC Viktoria Plzen.png
+                            |-- FC Zbrojovka Brno.png
+                            |-- FK Jablonec.png
+                            |-- FK Mlada Boleslav.png
+                            |-- FK Pardubice.png
+                            |-- FK Teplice.png
+                            |-- SK Dynamo Ceske Budejovice.png
+                            |-- SK Sigma Olomouc.png
+                            |-- SK Slavia Prague.png
+                        |-- UKR1
+                            |-- Chornomorets Odessa.png
+                            |-- Dynamo Kyiv.png
+                            |-- FK Minaj.png
+                            |-- FK Oleksandriya.png
+                            |-- Ingulets Petrove.png
+                            |-- Kolos Kovalivka.png
+                            |-- Kryvbas Kryvyi Rig.png
+                            |-- Metalist 1925 Kharkiv.png
+                            |-- Metalist Kharkiv.png
+                            |-- NK Veres Rivne.png
+                            |-- PFK Lviv.png
+                            |-- Rukh Lviv.png
+                            |-- Shakhtar Donetsk.png
+                            |-- SK Dnipro-1.png
+                            |-- Vorskla Poltava.png
+                            |-- Zorya Lugansk.png
+                    |-- A1
+                        |-- Austria Vienna.png
+                        |-- FC Blau-Weiss Linz.png
+                        |-- LASK.png
+                        |-- Rapid Vienna.png
+                        |-- Red Bull Salzburg.png
+                        |-- SC Austria Lustenau.png
+                        |-- SCR Altach.png
+                        |-- SK Austria Klagenfurt.png
+                        |-- SK Sturm Graz.png
+                        |-- TSV Hartberg.png
+                        |-- Wolfsberger AC.png
+                        |-- WSG Tirol.png
+                    |-- BE1
+                        |-- Cercle Brugge.png
+                        |-- Club Brugge KV.png
+                        |-- KAA Gent.png
+                        |-- KAS Eupen.png
+                        |-- KRC Genk.png
+                        |-- KV Kortrijk.png
+                        |-- KV Mechelen.png
+                        |-- KVC Westerlo.png
+                        |-- Oud-Heverlee Leuven.png
+                        |-- Royal Antwerp FC.png
+                        |-- Royale Union Saint Gilloise.png
+                        |-- RSC Anderlecht.png
+                        |-- RSC Charleroi.png
+                        |-- RWD Molenbeek.png
+                        |-- Sint-Truidense VV.png
+                        |-- Standard Liège.png
+                    |-- C1
+                        |-- BSC Young Boys.png
+                        |-- FC Basel 1893.png
+                        |-- FC Lausanne-Sport.png
+                        |-- FC Lugano.png
+                        |-- FC Luzern.png
+                        |-- FC St. Gallen 1879.png
+                        |-- FC Stade-Lausanne-Ouchy.png
+                        |-- FC Winterthur.png
+                        |-- FC Zürich.png
+                        |-- Grasshopper Club Zurich.png
+                        |-- Servette FC.png
+                        |-- Yverdon Sport FC.png
+                    |-- DK1
+                        |-- Aarhus GF.png
+                        |-- Bröndby IF.png
+                        |-- FC Copenhagen.png
+                        |-- FC Midtjylland.png
+                        |-- FC Nordsjaelland.png
+                        |-- Hvidovre IF.png
+                        |-- Lyngby BK.png
+                        |-- Odense Boldklub.png
+                        |-- Randers FC.png
+                        |-- Silkeborg IF.png
+                        |-- Vejle Boldklub.png
+                        |-- Viborg FF.png
+                    |-- ES1
+                        |-- Athletic Bilbao.png
+                        |-- Atlético de Madrid.png
+                        |-- CA Osasuna.png
+                        |-- Celta de Vigo.png
+                        |-- Cádiz CF.png
+                        |-- Deportivo Alavés.png
+                        |-- FC Barcelona.png
+                        |-- Getafe CF.png
+                        |-- Girona FC.png
+                        |-- Granada CF.png
+                        |-- Rayo Vallecano.png
+                        |-- RCD Mallorca.png
+                        |-- Real Betis Balompié.png
+                        |-- Real Madrid.png
+                        |-- Real Sociedad.png
+                        |-- Sevilla FC.png
+                        |-- UD Almería.png
+                        |-- UD Las Palmas.png
+                        |-- Valencia CF.png
+                        |-- Villarreal CF.png
+                    |-- FR1
+                        |-- AS Monaco.png
+                        |-- Clermont Foot 63.png
+                        |-- FC Lorient.png
+                        |-- FC Metz.png
+                        |-- FC Nantes.png
+                        |-- FC Toulouse.png
+                        |-- Le Havre AC.png
+                        |-- LOSC Lille.png
+                        |-- Montpellier HSC.png
+                        |-- OGC Nice.png
+                        |-- Olympique Lyon.png
+                        |-- Olympique Marseille.png
+                        |-- Paris Saint-Germain.png
+                        |-- RC Lens.png
+                        |-- RC Strasbourg Alsace.png
+                        |-- Stade Brestois 29.png
+                        |-- Stade Reims.png
+                        |-- Stade Rennais FC.png
+                    |-- GB1
+                        |-- AFC Bournemouth.png
+                        |-- Arsenal FC.png
+                        |-- Aston Villa.png
+                        |-- Brentford FC.png
+                        |-- Brighton & Hove Albion.png
+                        |-- Burnley FC.png
+                        |-- Chelsea FC.png
+                        |-- Crystal Palace.png
+                        |-- Everton FC.png
+                        |-- Fulham FC.png
+                        |-- Liverpool FC.png
+                        |-- Luton Town.png
+                        |-- Manchester City.png
+                        |-- Manchester United.png
+                        |-- Newcastle United.png
+                        |-- Nottingham Forest.png
+                        |-- Sheffield United.png
+                        |-- Tottenham Hotspur.png
+                        |-- West Ham United.png
+                        |-- Wolverhampton Wanderers.png
+                    |-- GR1
+                        |-- AE Kifisias.png
+                        |-- AEK Athens.png
+                        |-- Aris Thessaloniki.png
+                        |-- Asteras Tripolis.png
+                        |-- Atromitos Athens.png
+                        |-- OFI Crete FC.png
+                        |-- Olympiacos Piraeus.png
+                        |-- Panathinaikos Athens.png
+                        |-- Panetolikos GFS.png
+                        |-- Panserraikos.png
+                        |-- PAOK Thessaloniki.png
+                        |-- PAS Giannina.png
+                        |-- PAS Lamia 1964.png
+                        |-- Volos NPS.png
+                    |-- IT1
+                        |-- AC Milan.png
+                        |-- AC Monza.png
+                        |-- ACF Fiorentina.png
+                        |-- AS Roma.png
+                        |-- Atalanta BC.png
+                        |-- Bologna FC 1909.png
+                        |-- Cagliari Calcio.png
+                        |-- FC Empoli.png
+                        |-- Frosinone Calcio.png
+                        |-- Genoa CFC.png
+                        |-- Hellas Verona.png
+                        |-- Inter Milan.png
+                        |-- Juventus FC.png
+                        |-- SS Lazio.png
+                        |-- SSC Napoli.png
+                        |-- Torino FC.png
+                        |-- Udinese Calcio.png
+                        |-- US Lecce.png
+                        |-- US Salernitana 1919.png
+                        |-- US Sassuolo.png
+                    |-- KR1
+                        |-- GNK Dinamo Zagreb.png
+                        |-- HNK Gorica.png
+                        |-- HNK Hajduk Split.png
+                        |-- HNK Rijeka.png
+                        |-- NK Istra 1961.png
+                        |-- NK Lokomotiva Zagreb.png
+                        |-- NK Osijek.png
+                        |-- NK Rudes.png
+                        |-- NK Varazdin.png
+                        |-- Slaven Belupo Koprivnica.png
+                    |-- L1
+                        |-- 1.FC Heidenheim 1846.png
+                        |-- 1.FC Köln.png
+                        |-- 1.FC Union Berlin.png
+                        |-- 1.FSV Mainz 05.png
+                        |-- Bayer 04 Leverkusen.png
+                        |-- Bayern Munich.png
+                        |-- Borussia Dortmund.png
+                        |-- Borussia Mönchengladbach.png
+                        |-- Eintracht Frankfurt.png
+                        |-- FC Augsburg.png
+                        |-- RB Leipzig.png
+                        |-- SC Freiburg.png
+                        |-- SV Darmstadt 98.png
+                        |-- SV Werder Bremen.png
+                        |-- TSG 1899 Hoffenheim.png
+                        |-- VfB Stuttgart.png
+                        |-- VfL Bochum.png
+                        |-- VfL Wolfsburg.png
+                    |-- NL1
+                        |-- Ajax Amsterdam.png
+                        |-- Almere City FC.png
+                        |-- AZ Alkmaar.png
+                        |-- Excelsior Rotterdam.png
+                        |-- FC Utrecht.png
+                        |-- FC Volendam.png
+                        |-- Feyenoord Rotterdam.png
+                        |-- Fortuna Sittard.png
+                        |-- Go Ahead Eagles.png
+                        |-- Heracles Almelo.png
+                        |-- NEC Nijmegen.png
+                        |-- PEC Zwolle.png
+                        |-- PSV Eindhoven.png
+                        |-- RKC Waalwijk.png
+                        |-- SC Heerenveen.png
+                        |-- Sparta Rotterdam.png
+                        |-- Twente Enschede FC.png
+                        |-- Vitesse Arnhem.png
+                    |-- PL1
+                        |-- Cracovia.png
+                        |-- Górnik Zabrze.png
+                        |-- Jagiellonia Bialystok.png
+                        |-- Korona Kielce.png
+                        |-- Lech Poznan.png
+                        |-- Legia Warszawa.png
+                        |-- LKS Lodz.png
+                        |-- Piast Gliwice.png
+                        |-- Pogon Szczecin.png
+                        |-- Puszcza Niepolomice.png
+                        |-- Radomiak Radom.png
+                        |-- Rakow Czestochowa.png
+                        |-- Ruch Chorzow.png
+                        |-- Slask Wroclaw.png
+                        |-- Stal Mielec.png
+                        |-- Warta Poznan.png
+                        |-- Widzew Lodz.png
+                        |-- Zaglebie Lubin.png
+                    |-- PO1
+                        |-- Boavista FC.png
+                        |-- Casa Pia AC.png
+                        |-- CF Estrela Amadora SAD.png
+                        |-- FC Arouca.png
+                        |-- FC Famalicão.png
+                        |-- FC Porto.png
+                        |-- FC Vizela.png
+                        |-- GD Chaves.png
+                        |-- GD Estoril Praia.png
+                        |-- Gil Vicente FC.png
+                        |-- Moreirense FC.png
+                        |-- Portimonense SC.png
+                        |-- Rio Ave FC.png
+                        |-- SC Braga.png
+                        |-- SC Farense.png
+                        |-- SL Benfica.png
+                        |-- Sporting CP.png
+                        |-- Vitória Guimarães SC.png
+                    |-- RU1
+                        |-- Akhmat Grozny.png
+                        |-- Baltika Kaliningrad.png
+                        |-- CSKA Moscow.png
+                        |-- Dynamo Moscow.png
+                        |-- Fakel Voronezh.png
+                        |-- FC Pari Nizhniy Novgorod.png
+                        |-- FC Sochi.png
+                        |-- FK Krasnodar.png
+                        |-- FK Orenburg.png
+                        |-- FK Rostov.png
+                        |-- Krylya Sovetov Samara.png
+                        |-- Lokomotiv Moscow.png
+                        |-- Rubin Kazan.png
+                        |-- Spartak Moscow.png
+                        |-- Ural Yekaterinburg.png
+                        |-- Zenit St. Petersburg.png
+                    |-- SC1
+                        |-- Aberdeen FC.png
+                        |-- Celtic FC.png
+                        |-- Dundee FC.png
+                        |-- Heart of Midlothian FC.png
+                        |-- Hibernian FC.png
+                        |-- Kilmarnock FC.png
+                        |-- Livingston FC.png
+                        |-- Motherwell FC.png
+                        |-- Rangers FC.png
+                        |-- Ross County FC.png
+                        |-- St. Johnstone FC.png
+                        |-- St. Mirren FC.png
+                    |-- SER1
+                        |-- FK IMT Belgrad.png
+                        |-- FK Javor-Matis Ivanjica.png
+                        |-- FK Mladost Lucani.png
+                        |-- FK Napredak Krusevac.png
+                        |-- FK Novi Pazar.png
+                        |-- FK Partizan Belgrade.png
+                        |-- FK Radnicki 1923 Kragujevac.png
+                        |-- FK Radnicki Nis.png
+                        |-- FK Radnik Surdulica.png
+                        |-- FK Spartak Subotica.png
+                        |-- FK TSC Backa Topola.png
+                        |-- FK Vojvodina Novi Sad.png
+                        |-- FK Vozdovac.png
+                        |-- FK Čukarički.png
+                        |-- Red Star Belgrade.png
+                        |-- Zeleznicar Pancevo.png
+                    |-- TR1
+                        |-- Adana Demirspor.png
+                        |-- Alanyaspor.png
+                        |-- Antalyaspor.png
+                        |-- Basaksehir FK.png
+                        |-- Besiktas JK.png
+                        |-- Caykur Rizespor.png
+                        |-- Fatih Karagümrük.png
+                        |-- Fenerbahce.png
+                        |-- Galatasaray.png
+                        |-- Gaziantep FK.png
+                        |-- Hatayspor.png
+                        |-- Istanbulspor.png
+                        |-- Kasimpasa.png
+                        |-- Kayserispor.png
+                        |-- Konyaspor.png
+                        |-- MKE Ankaragücü.png
+                        |-- Pendikspor.png
+                        |-- Samsunspor.png
+                        |-- Sivasspor.png
+                        |-- Trabzonspor.png
+                    |-- TS1
+                        |-- 1.FC Slovacko.png
+                        |-- AC Sparta Prague.png
+                        |-- Bohemians Prague 1905.png
+                        |-- FC Banik Ostrava.png
+                        |-- FC Hradec Kralove.png
+                        |-- FC Slovan Liberec.png
+                        |-- FC Viktoria Plzen.png
+                        |-- FC Zlin.png
+                        |-- FK Jablonec.png
+                        |-- FK Mlada Boleslav.png
+                        |-- FK Pardubice.png
+                        |-- FK Teplice.png
+                        |-- MFK Karvina.png
+                        |-- SK Dynamo Ceske Budejovice.png
+                        |-- SK Sigma Olomouc.png
+                        |-- SK Slavia Prague.png
+                    |-- UKR1
+                        |-- Chornomorets Odessa.png
+                        |-- Dynamo Kyiv.png
+                        |-- FK Minaj.png
+                        |-- FK Obolon Kyiv.png
+                        |-- FK Oleksandriya.png
+                        |-- FK Polissya Zhytomyr.png
+                        |-- Kolos Kovalivka.png
+                        |-- Kryvbas Kryvyi Rig.png
+                        |-- LNZ Cherkasy.png
+                        |-- Metalist 1925 Kharkiv.png
+                        |-- NK Veres Rivne.png
+                        |-- Rukh Lviv.png
+                        |-- Shakhtar Donetsk.png
+                        |-- SK Dnipro-1.png
+                        |-- Vorskla Poltava.png
+                        |-- Zorya Lugansk.png
+                |-- README.md
+            |-- vs.png
+        |-- components
+            |-- AdminSettings
+                |-- AppsSocialSettings.jsx
+                |-- ContactInfo.jsx
+                |-- GeneralSettings.jsx
+            |-- global
+                |-- DateSelector.jsx
+                |-- LeagueFixture.jsx
+                |-- LoadingBall.jsx
+                |-- LoadingSemiCircle.jsx
+                |-- Location.jsx
+                |-- NewsArticleThumbnail.jsx
+                |-- SelectedLeagues.jsx
+                |-- SingleLoadingBall.jsx
+            |-- ManageApp
+                |-- Accordian.jsx
+                |-- Ads.jsx
+                |-- AndroidSettings.jsx
+                |-- AppInformation.jsx
+                |-- BlockCountries.jsx
+                |-- IOS.jsx
+                |-- IOSAds.jsx
+                |-- SettingForms.jsx
+            |-- ManageLive
+                |-- CreateMatch.jsx
+                |-- EditMatch.jsx
+                |-- MatchList.jsx
+            |-- Navbar
+                |-- NavList.jsx
+                |-- Sidebar.jsx
+                |-- User.jsx
+            |-- News
+                |-- AddNews.jsx
+                |-- EditNews.jsx
+            |-- Notifications
+                |-- CreateNotification.jsx
+                |-- NotificationItem.jsx
+                |-- NotificationList.jsx
+            |-- pages
+                |-- Administration.jsx
+                |-- ContactUs.jsx
+                |-- Dashboard.jsx
+                |-- Fixtures.jsx
+                |-- Highlights.jsx
+                |-- index.js
+                |-- Leagues.jsx
+                |-- Login.jsx
+                |-- Logout.jsx
+                |-- ManageApp.jsx
+                |-- ManageLive.jsx
+                |-- News.jsx
+                |-- Notification.jsx
+                |-- Portal.jsx
+                |-- Types.jsx
+            |-- styles
+                |-- flatpickr.css
+                |-- loadingAnimation.css
+                |-- loadingball.css
+                |-- navlist.css
+                |-- sidebar.css
+                |-- singleBall.css
+                |-- toggleBtn.css
+        |-- context
+            |-- index.jsx
+        |-- index.css
+        |-- main.jsx
+    |-- tailwind.config.js
+    |-- vite.config.js
+|-- config
+    |-- db.js
+    |-- firebase.js
+|-- data
+    |-- user.js
+|-- iosSettings
+    |-- iosModel.js
+    |-- iosSettingsController.js
+    |-- iosSettingsRoutes.js
+|-- iosSettingupload
+    |-- 1715254471221.Screenshot_1.png
+|-- Leagues_Fixtures
+    |-- fixtureController.js
+    |-- fixtureRoutes.js
+    |-- leagueModel.js
+|-- match
+    |-- matchController.js
+    |-- matchModel.js
+    |-- matchOrder.js
+    |-- matchRouter.js
+    |-- viewModel.js
+|-- middleware
+    |-- authMiddleware.js
+    |-- errorMiddleware.js
+|-- news
+    |-- newsController.js
+    |-- newsModel.js
+    |-- newsRouter.js
+    |-- newsupdate.js
+    |-- newUpload.js
+|-- newsuploads
+    |-- 1713534431753.Screenshot (1).png
+    |-- 1713871760415.image.png
+    |-- 1713871804261.image.png
+    |-- 1713879418010.image.png
+    |-- 1713978341001.screen.png
+    |-- 1714039969405.screen.png
+|-- notification
+    |-- notifHistory.js
+    |-- notificationController.js
+    |-- notificationModel.js
+    |-- notificationRouter.js
+|-- package-lock.json
+|-- package.json
+|-- seeder.js
+|-- server.js
+|-- static
+    |-- app-ads.txt
+    |-- contact-us.html
+    |-- lander.html
+    |-- privacy.html
+    |-- terms.html
+|-- user
+    |-- userController.js
+    |-- userModel.js
+    |-- userProfileUpload.js
+    |-- userRoute.js
